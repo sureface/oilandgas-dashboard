@@ -1,0 +1,85 @@
+:root {
+  --gis-bg-dark-blue: var(
+    --Linear,
+    linear-gradient(250deg, #00305c -2.59%, #000 105.05%)
+  );
+  --gis-color-gray: #868e96;
+
+  /* wdith and height */
+  --gis-sidebar-avatar-w-h: 36;
+}
+
+/* scroll bar style start */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* body::-webkit-scrollbar-thumb {
+  background-color: #686868;
+  border-radius: 15px;
+} */
+/* scroll bar style start */
+
+/* glocal variables */
+.cursor-pointer {
+  cursor: pointer !important;
+}
+/* glocal variables */
+
+/* navbar start */
+.navbar {
+  position: fixed !important;
+  background: #fafdfb;
+}
+/* navbar start */
+
+/*----------sideBar start--------------*/
+.main-sidebar .sidebar-menu li a {
+  text-transform: capitalize;
+}
+.navbar-nav .nav-profile.nav-link {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+/*----------sideBar end----------------*/
+
+/*  statistic fixed sidebar start */
+.gis-statistic_fixed__bar {
+  position: fixed;
+  top: 70px;
+  right: 0;
+  width: 300px;
+  height: calc(100vh - 70px);
+  background: #eff1f0;
+  z-index: 99;
+  padding: 10px;
+  overflow-y: auto;
+}
+.gis-statistic_fixed__bar::-webkit-scrollbar {
+  width: 0.4rem;
+}
+.gis-statistic_fixed__bar::-webkit-scrollbar-thumb {
+  background-color: #686868;
+  border-radius: 15px;
+}
+/* ::-webkit-scrollbar {
+    
+  } */
+
+/* chart style start*/
+
+.chart-container {
+  max-width: 300px;
+  width: 100%;
+  height: 300px;
+}
+.chart-container-lg {
+  width: 100%;
+  height: 100%;
+}
+.modal-content.gis-chart-lg {
+  height: 500px !important;
+}
+/* chart style ends */
+
+/*  statistic fixed sidebar start */
