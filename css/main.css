@@ -83,3 +83,21 @@ body::-webkit-scrollbar {
 /* chart style ends */
 
 /*  statistic fixed sidebar start */
+
+/* gis map style started */
+.main-content {
+  padding-left: 250px;
+  padding-right: 300px;
+  padding-top: 71px;
+}
+body.sidebar-mini .main-content,
+body.sidebar-mini .main-footer {
+  padding-left: 65px;
+}
+#map {
+  padding: 0;
+  margin: 0;
+  width: 100% !important;
+  height: calc(100vh - 71px) !important;
+}
+/* gis map style end */

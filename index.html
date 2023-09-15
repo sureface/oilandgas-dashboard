@@ -14,6 +14,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.27/esri/themes/light/main.css"
+    />
     <link rel="stylesheet" href="modules/fontawesome/css/all.min.css" />
 
     <!-- CSS Libraries -->
@@ -109,7 +113,7 @@
             <ul class="sidebar-menu">
               <li class="active">
                 <a href="#" class="nav-link"
-                  ><i class="fas fa-fire"></i><span>oli and gas</span></a
+                  ><i class="fas fa-fire"></i><span>oil and gas</span></a
                 >
               </li>
               <li class="dropdown">
@@ -212,9 +216,12 @@
           </div>
         </div>
         <!-- Map -->
+        <main class="main-content">
+          <div id="map"></div>
+        </main>
       </div>
     </div>
-
+    <!-- sidebar modals -->
     <div
       class="modal fade"
       id="lineChatModel"
@@ -307,11 +314,11 @@
     <!-- JS Libraies -->
     <script src="modules/simple-weather/jquery.simpleWeather.min.js"></script>
     <script src="modules/chart.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
     <script src="modules/jqvmap/dist/jquery.vmap.min.js"></script>
     <script src="modules/jqvmap/dist/maps/jquery.vmap.world.js"></script>
     <script src="modules/summernote/summernote-bs4.js"></script>
     <script src="modules/chocolat/dist/js/jquery.chocolat.min.js"></script>
+    <script src="https://js.arcgis.com/4.27/"></script>
 
     <!-- Page Specific JS File -->
     <script src="js/page/index-0.js"></script>
