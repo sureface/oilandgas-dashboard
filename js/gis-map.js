@@ -42,9 +42,9 @@ require([
           geometry: point,
           symbol: {
             type: "picture-marker",
-            url: "img/stisla.svg",
-            window: "32px",
-            heihgt: "32px",
+            url: "img/neft.png",
+            window: "40px",
+            heihgt: "40px", 
           },
           attributes: location,
           popupTemplate: {
