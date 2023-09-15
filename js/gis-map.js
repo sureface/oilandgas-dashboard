@@ -43,8 +43,8 @@ require([
           symbol: {
             type: "picture-marker",
             url: "img/neft.png",
-            window: "26px",
-            heihgt: "43px",
+            window: "40px",
+            heihgt: "60px",
           },
           attributes: location,
           popupTemplate: {
